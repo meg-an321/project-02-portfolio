@@ -5,12 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+        }
+
+        .image {
+            width: 100px; /* Set the width of the image */
+            height: auto; /* Maintain aspect ratio */
+            margin-right: 20px; /* Adjust the spacing between the image and text */
+        }
+    </style>
 </head>
 
 <body>
     <header>
-        <img src="./assets/images/profilepicture.png" alt="placeholder image"/>
-        <h1>Megan Zimnicki</h1>
+    <body>
+        <div class="container">
+            <img src="./assets/images/profilepicture.png" alt="Your Image" class="image">
+            <h1>Megan Zimnicki</h1>
+        </div>
+    </body>
         <nav>
             <ul>
                 <li><a href="#">About Me</a></li>
@@ -24,17 +40,30 @@
         <section>
             <article>
         <section class="about-me">
-            <img src="https://via.placeholder.com/200" alt="placeholder image" class="float-left"/>
             <h2>About Me</h2>
             <p>
-                I am awesome the end.
+                I am a born and raised North Carolinian with a deep passion for the intricacies of web development. 
+                Having grown up in the charming city of Charlotte, I have always been fascinated by the combination of history, faith, and art that can be found within its borders. 
+                This amalgamation of interests has shaped my perspective as a professional, allowing me to approach my work with a unique blend of creativity and precision. 
+                As a web developer, I am not only driven by the desire to create visually stunning and user-friendly websites, but also to tell a story through the intersection of 
+                design and technology. My commitment to honing my skills and staying at the forefront of industry trends is what truly sets me apart as a developer, 
+                and I am excited to continue my journey of combining my passions with my career.
             </p>
     </section>
     <section class="work">
-        <img src="https://via.placeholder.com/200" alt="placeholder image" class="float-right"/>
+        <a href="file:///C:/Users/Megan/bootcamp/UNCC-VIRT-FSF-PT-04-2024-U-LOLC/02-Advanced-CSS/01-Activities/28-Stu_Mini-Project/index.html">
+            <img src="./assets/images/computer.jpg" alt="placeholder image">
+        </a>
+        <a href="file:///C:/Users/Megan/mini-project-01/index.html">
+            <img src="./assets/images/chalkboard.jpg" alt="placeholder image">
+        </a>
+        <a href="file:///C:/Users/Megan/html-seo-refactor/index.html">
+            <img src="./assets/images/javapic.jpg" alt="placeholder image">
+        </a>
+
         <h2>Work</h2>
         <p>
-            My work is amazing.
+            Shown above are projects I have worked on. Feel free to look at them, by clicking on the images above.
         </p>
     </article>
     </section>
@@ -50,14 +79,18 @@
             </div>
 
             <div class="github">
-                <h3>GitHub</h3>
+                <h3>
+                <li> <a href="https://github.com/">Github</a></li>
+                </h3>
             </div>
         </div>
     </section>
-    <footer>
-        <h3>Made with love and CSS</h3>
-    </footer>
 </main>
+
+<footer>
+    <h3>Made with love and CSS</h3>
+</footer>
+
     
 </body>
 

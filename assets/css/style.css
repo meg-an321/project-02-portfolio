@@ -18,6 +18,19 @@ header {
     color: #e2c16d;
 }
 
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  width: 100px; /* Set the width of the image */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 20px; /* Adjust the spacing between the image and text */
+}
+
+
 nav ul {
     display: flex;
     justify-content: space-between;
@@ -50,6 +63,10 @@ nav ul {
 }
 
 
+p {
+  max-width: 1250px; /* Set a maximum width for the paragraph */
+  margin: 0 auto; /* Center the paragraph on the screen */
+}
 
 .work {
     background-color: rgb(114, 146, 154);
@@ -75,6 +92,7 @@ nav ul {
 .contact-info {
   display: flex;
   gap: 35px;
+  list-style-type: none
 
 }
 
@@ -85,4 +103,23 @@ nav ul {
     color: #e2c16d;
 }
 
+@media screen and (max-width: 844px) {
+  header, main {
+    flex-direction: column;
+  }
+
+  section {
+    padding-right: 0;
+  }
+
+  aside {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact-info {
+    display: flex;
+    align-content: space-around;
+  }
+}
  
