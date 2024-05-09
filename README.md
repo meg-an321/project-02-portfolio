@@ -8,13 +8,13 @@ for a future employer. We had to display examples of pervious work done for empl
 We also wrote in contact information, so if hired one may reach out to the appropriate user.
 
 ```md
-![Screenshot](./assets/images/screenshot.png)
+![Screenshot](screenshot.png)
 ```
-![Screenshot](./assets/images/screenshot.png)
+![Screenshot](screenshot.png)
 
 
 ## Links
 
 [Live URL](https://github.com/meg-an321/project-02-portfolio)
 
-[GitHub Repo](https://meg-an321.github.io/project-02-portfolio/)
+[GitHub Repo](https://meg-an321.github.io/project-02-portfolio)
