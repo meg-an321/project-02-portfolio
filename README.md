@@ -4,12 +4,13 @@
 
 
 The motive of this assignment was to create an example profolio 
-for a future employer.
+for a future employer. We had to display examples of pervious work done for employer to critique future employees skill set.
+We also wrote in contact information, so if hired one may reach out to the appropriate user.
 
 ```md
-![alt text](assets/images/sceenshot.png)
+![alt text](./assets/images/sceenshot.png)
 ```
-![alt text](assets/images/sceenshot.png)
+![alt text](./assets/images/sceenshot.png)
 
 
 ## Links
