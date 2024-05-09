@@ -8,9 +8,9 @@ for a future employer. We had to display examples of pervious work done for empl
 We also wrote in contact information, so if hired one may reach out to the appropriate user.
 
 ```md
-![Screenshot](screenshot.png)
+![Screenshot](./assets/images/screenshot.png)
 ```
-![Screenshot](screenshot.png)
+![Screenshot](./assets/images/screenshot.png)
 
 
 ## Links
